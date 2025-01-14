@@ -1,0 +1,40 @@
+.products-container {
+  padding: 20px;
+}
+
+.products-container h2 {
+  font-size: 1.8rem;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.subproducts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.subproduct-link {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.subproduct-link:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.subproduct-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subproduct-link p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}

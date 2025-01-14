@@ -1,0 +1,14 @@
+.events-container {
+    padding: 20px;
+  }
+  
+  .events-container h1 {
+    font-size: 2rem;
+    color: #1976d2;
+  }
+  
+  .events-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

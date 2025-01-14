@@ -1,0 +1,30 @@
+.contact-container {
+    padding: 20px;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-container button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-container button:hover {
+    background-color: #145a8b;
+  }
+  

@@ -1,0 +1,14 @@
+.about-container {
+    padding: 20px;
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    color: #1976d2;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
